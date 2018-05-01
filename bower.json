@@ -1,0 +1,36 @@
+{
+  "name": "jovani-explores",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "author": "Jovani Warguez",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jovanidash21/wordpress-react-redux-theme-boilerplate.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "PACE": "pace#^1.0.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "PACE": {
+      "main": [
+        "themes/blue/pace-theme-minimal.css",
+        "pace.js"
+      ]
+    }
+  }
+}

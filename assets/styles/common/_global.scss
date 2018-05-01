@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: $font-family-roboto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#wpadminbar {
+  @media (max-width: $wp-admin-screen-xs-max) {
+    position: fixed;
+  }
+}
+.main-content {
+  padding: 21px 0;
+}
+.pace {
+  .pace-progress {
+    height: 3px;
+    z-index: 100000;
+  }
+}
