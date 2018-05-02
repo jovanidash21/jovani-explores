@@ -13,13 +13,13 @@ import NotFound from '../containers/NotFound';
 const routes = (
   <div>
     <Switch>
-      <Layout exact path="/jovani-codes/" component={Home} />
-      <Layout exact path="/jovani-codes/work" component={Work} />
-      <Layout exact path="/jovani-codes/work/:slug" component={WorkSingle} />
-      <Layout exact path="/jovani-codes/blog" component={Blog} />
-      <Layout exact path="/jovani-codes/blog/:slug" component={BlogSingle} />
-      <Layout exact path="/jovani-codes/about" component={About} />
-      <Layout exact path="/jovani-codes/contact" component={Contact} />
+      <Layout exact path="/" component={Home} />
+      <Layout exact path="/work" component={Work} />
+      <Layout exact path="/work/:slug" component={WorkSingle} />
+      <Layout exact path="/blog" component={Blog} />
+      <Layout exact path="/blog/:slug" component={BlogSingle} />
+      <Layout exact path="/about" component={About} />
+      <Layout exact path="/contact" component={Contact} />
       <Layout path="*" component={NotFound} />
     </Switch>
   </div>
