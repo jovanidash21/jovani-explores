@@ -11,6 +11,7 @@
         "styles/vendor.scss"
       ],
       "bower": [
+        "animate.css",
         "PACE"
       ]
     },
