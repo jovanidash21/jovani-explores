@@ -24,6 +24,10 @@
     "npm-run-all": "^4.1.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome": "^1.1.7",
+    "@fortawesome/fontawesome-free-brands": "^5.0.12",
+    "@fortawesome/fontawesome-free-solid": "^5.0.12",
+    "@fortawesome/react-fontawesome": "0.0.19",
     "asset-builder": "^1.1.0",
     "autoprefixer": "^8.2.0",
     "axios": "^0.16.2",
