@@ -7,7 +7,7 @@
   "main": "index.php",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jovanidash21/wordpress-react-redux-theme-boilerplate.git"
+    "url": "https://github.com/jovanidash21/jovani-explores.git"
   },
   "ignore": [
     "**/.*",
