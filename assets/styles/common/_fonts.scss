@@ -17,3 +17,5 @@
 		font-weight: $font-weight;
 	}
 }
+
+@include font-face('Lemon Bird', '#{$fonts}/LemonBird-Regular');
