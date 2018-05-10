@@ -184,7 +184,7 @@
             "key": "field_5af3f1aa06651",
             "label": "Instagram - Message",
             "name": "instagram_message",
-            "type": "url",
+            "type": "text",
             "value": null,
             "instructions": "",
             "required": 0,
@@ -203,7 +203,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": ""
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_5af3f0153c8c8",
@@ -234,7 +237,7 @@
             "key": "field_5af3f1b906652",
             "label": "LinkedIn - Message",
             "name": "linkedin_message",
-            "type": "url",
+            "type": "text",
             "value": null,
             "instructions": "",
             "required": 0,
@@ -253,7 +256,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": ""
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_5af3f0253c8c9",
@@ -284,7 +290,7 @@
             "key": "field_5af3f1c306653",
             "label": "Google Plus - Message",
             "name": "google_plus_message",
-            "type": "url",
+            "type": "text",
             "value": null,
             "instructions": "",
             "required": 0,
@@ -303,7 +309,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": ""
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_5af3f05f3c8cb",
@@ -334,7 +343,7 @@
             "key": "field_5af3f1cf06654",
             "label": "YouTube - Message",
             "name": "youtube_message",
-            "type": "url",
+            "type": "text",
             "value": null,
             "instructions": "",
             "required": 0,
@@ -353,7 +362,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": ""
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
             "key": "field_5af3f0783c8cc",
@@ -384,7 +396,7 @@
             "key": "field_5af3f1db06655",
             "label": "GitHub - Message",
             "name": "github_message",
-            "type": "url",
+            "type": "text",
             "value": null,
             "instructions": "",
             "required": 0,
@@ -403,7 +415,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": ""
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         }
     ],
     "location": [
@@ -423,5 +438,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1525936631
+    "modified": 1525939325
 }
