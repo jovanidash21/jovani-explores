@@ -1,0 +1,37 @@
+.banner-section {
+  height: 100vh;
+  .admin-bar & {
+    height: calc(100vh - #{$wp-admin-bar-height-desktop}) !important;
+    @media (max-width: $wp-admin-screen-md-max) {
+      height: calc(100vh - #{$wp-admin-bar-height-mobile}) !important;
+    }
+  }
+  .banner-content,
+  .slick-slider,
+  .slick-list,
+  .slick-track,
+  .slick-slide {
+    height: 100%;
+  }
+  .slick-prev,
+  .slick-next,
+  .slick-dots {
+    z-index: 10;
+  }
+  .slick-next,
+  .slick-prev {
+    display: none !important;
+    @include media-breakpoint-up(md) {
+      display: block !important;
+    }
+  }
+  .slick-next {
+    right: 60px;
+  }
+  .slick-prev {
+    left: 60px;
+  }
+  .slick-dots {
+    bottom: 0;
+  }
+}

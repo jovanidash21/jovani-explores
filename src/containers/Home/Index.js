@@ -4,6 +4,7 @@ import { Jumbotron } from 'reactstrap';
 import ReactHtmlParser from 'react-html-parser';
 import mapDispatchToProps from '../../actions';
 import Head from '../../components/Head';
+import Banner from '../Partial/Banner';
 
 class Home extends Component {
   constructor(props) {
@@ -27,23 +28,7 @@ class Home extends Component {
     return (
       <div>
         {::this.handleHeadData()}
-        <div className="container">
-          <Jumbotron>
-            {
-              'home' in page.singlePage &&
-              page.singlePage.home.length > 0 &&
-              page.singlePage.home.map((pageData, i) =>
-                <div key={i}>
-                  <h2 className="display-3">
-                    {pageData.title.rendered}
-                  </h2>
-                  <hr className="my-2" />
-                  {ReactHtmlParser(pageData.content.rendered)}
-                </div>
-              )
-            }
-          </Jumbotron>
-        </div>
+        <Banner />
       </div>
     )
   }
