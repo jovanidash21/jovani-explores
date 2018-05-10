@@ -16,12 +16,22 @@ body {
     position: fixed;
   }
 }
-.main-content {
-  padding: 21px 0;
-}
-.pace {
-  .pace-progress {
-    height: 3px;
-    z-index: 100000;
+a {
+  cursor: pointer;
+  text-decoration: none;
+  &:focus,
+  &:hover {
+    text-decoration: none;
   }
+}
+button {
+  cursor: pointer;
+}
+section[class*=-section] {
+  padding: 30px 0;
+  position: relative;
+}
+.vertical-align-middle {
+  align-items: center;
+  display: flex;
 }
