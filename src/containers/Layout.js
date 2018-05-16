@@ -14,13 +14,20 @@ class Layout extends Component {
     fetchOptions();
   }
   handleComponent(matchProps) {
-    const { component: Content } = this.props;
+    const {
+      component: Content,
+      options
+    } = this.props;
 
-    return (
-      <div className="main-content">
-        <Content {...matchProps} />
-      </div>
-    )
+    if (!options.isLoading && options.isSuccess) {
+      return (
+        <div className="main-content">
+          <Content {...matchProps} />
+        </div>
+      )
+    } else {
+      return <div />;
+    }
   }
   render() {
     const { component, ...rest } = this.props;
@@ -32,7 +39,9 @@ class Layout extends Component {
 }
 
 const mapStateToProps = (state) => {
-  return {};
+  return {
+    options: state.options
+  };
 }
 
 Layout.propTypes={
