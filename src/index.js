@@ -3,8 +3,18 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import store from './store';
 import { ConnectedRouter } from 'react-router-redux';
+import fontawesome from '@fortawesome/fontawesome';
+import brands from '@fortawesome/fontawesome-free-brands';
+import regular from '@fortawesome/fontawesome-free-regular';
+import solid from '@fortawesome/fontawesome-free-solid';
 import history from './history';
 import routes from './routes';
+
+fontawesome.library.add(
+  brands,
+  regular,
+  solid
+);
 
 render(
   <Provider store={store}>
