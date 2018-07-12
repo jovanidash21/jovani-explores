@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Container, Row, Col } from 'reactstrap';
 import Slider from 'react-slick';
+import Arrow from '../../components/Arrow';
 import mapDispatchToProps from '../../actions';
 
 class Banner extends Component {
@@ -17,13 +18,12 @@ class Banner extends Component {
   }
   render() {
     const slickOptions = {
-      swipe: true,
-      infinite: true,
       dots: true,
-      arrows: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
+      prevArrow: <Arrow direction="left" />,
+      nextArrow: <Arrow direction="right" />,
       afterChange: ::this.handleAfterChange
     };
 

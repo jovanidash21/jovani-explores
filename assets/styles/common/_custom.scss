@@ -4,3 +4,23 @@
     z-index: 100000;
   }
 }
+.slick-arrow {
+  font-size: unset;
+  height: auto;
+  width: auto;
+  &:before {
+    content: "";
+  }
+  svg {
+    color: #000;
+    height: 70px;
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+    width: auto;
+  }
+  &:hover {
+    svg {
+      opacity: 1;
+    }
+  }
+}
