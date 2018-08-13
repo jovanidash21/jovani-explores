@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Container, Row, Col } from 'reactstrap';
 import Slider from 'react-slick';
-import Arrow from '../../components/Arrow';
+import { Arrow } from '../../components/Arrow';
 import mapDispatchToProps from '../../actions';
 
 class Banner extends Component {
