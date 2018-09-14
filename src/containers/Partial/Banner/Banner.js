@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Container, Row, Col } from 'reactstrap';
 import Slider from 'react-slick';
-import { Arrow } from '../../components/Arrow';
-import mapDispatchToProps from '../../actions';
+import { Arrow } from '../../../components/Arrow';
+import mapDispatchToProps from '../../../actions';
 
 class Banner extends Component {
   constructor(props) {
@@ -31,32 +30,26 @@ class Banner extends Component {
       <section className="banner-section">
         <div className="banner-content">
           <Slider {...slickOptions} >
-            <div className="banner-slide-item text-center">
-              <Container>
-                <Row>
-                  <Col xs="12">
-                    <h1>Slide Item 1</h1>
-                  </Col>
-                </Row>
-              </Container>
+            <div className="banner-slide-item-wrapper">
+              <div className="banner-slide-item">
+                <div class="banner-text">
+                  Lorem ipsum dolor sit amet
+                </div>
+              </div>
             </div>
-            <div className="banner-slide-item text-center">
-              <Container>
-                <Row>
-                  <Col xs="12">
-                    <h1>Slide Item 2</h1>
-                  </Col>
-                </Row>
-              </Container>
+            <div className="banner-slide-item-wrapper">
+              <div className="banner-slide-item">
+                <div class="banner-text">
+                  Aenean nisl tellus
+                </div>
+              </div>
             </div>
-            <div className="banner-slide-item text-center">
-              <Container>
-                <Row>
-                  <Col xs="12">
-                    <h1>Slide Item 3</h1>
-                  </Col>
-                </Row>
-              </Container>
+            <div className="banner-slide-item-wrapper">
+              <div className="banner-slide-item">
+                <div class="banner-text">
+                  Fusce non rhoncus turpis
+                </div>
+              </div>
             </div>
           </Slider>
         </div>
