@@ -32,21 +32,21 @@ class Banner extends Component {
           <Slider {...slickOptions} >
             <div className="banner-slide-item-wrapper">
               <div className="banner-slide-item">
-                <div class="banner-text">
+                <div className="banner-text">
                   Lorem ipsum dolor sit amet
                 </div>
               </div>
             </div>
             <div className="banner-slide-item-wrapper">
               <div className="banner-slide-item">
-                <div class="banner-text">
+                <div className="banner-text">
                   Aenean nisl tellus
                 </div>
               </div>
             </div>
             <div className="banner-slide-item-wrapper">
               <div className="banner-slide-item">
-                <div class="banner-text">
+                <div className="banner-text">
                   Fusce non rhoncus turpis
                 </div>
               </div>
