@@ -13,7 +13,7 @@ function assets() {
   wp_localize_script( 'react-redux-js', 'JOVANI_EXPLORES', array(
     'siteName'        => get_bloginfo( 'name' ),
     'siteDescription' => get_bloginfo( 'description' ),
-    'siteURL'         => get_site_url(),
+    'siteURL'         => untrailingslashit( get_site_url() ),
     'images'          => get_template_directory_uri() . '/dist/images',
   ) );
 
